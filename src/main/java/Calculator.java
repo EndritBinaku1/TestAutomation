@@ -2,9 +2,10 @@
  * Calculator Class
  */
 public class Calculator {
-    
+
     /**
      * Addiere die 2 gegebenen Werte
+     *
      * @param a Wert 1
      * @param b Wert 2
      * @return das Ergebnis der Addition
@@ -18,6 +19,7 @@ public class Calculator {
 
     /**
      * Subtrahiere "b" von "a"
+     *
      * @param a Wert 1
      * @param b Wert 2
      * @return Das Ergebnis der Subtraktion
@@ -28,6 +30,7 @@ public class Calculator {
 
     /**
      * Mulitpliziere die 2 gegebenen Werte
+     *
      * @param a Wert 1
      * @param b Wert 2
      * @return Das Ergebnis der Multiplikation
@@ -38,8 +41,9 @@ public class Calculator {
 
     /**
      * Dividiere 2 Werte
+     *
      * @param dividend Der Dividend
-     * @param divisor Der Divisor
+     * @param divisor  Der Divisor
      * @return Das Ergebnis der Division
      */
     public double divide(double dividend, double divisor) {
@@ -53,7 +57,8 @@ public class Calculator {
 
     /**
      * Berechne den Restwert einer Division
-     * @param a Der Wert
+     *
+     * @param a   Der Wert
      * @param mod Der Divisor
      * @return Den Restwert der Division
      */
@@ -63,8 +68,9 @@ public class Calculator {
 
     /**
      * Summiere alle gegebenen Zahlen
+     *
      * @param numberToSumUp zu addierende Zahlen
-     * @return  Die Summe aller Zahlen im Array
+     * @return Die Summe aller Zahlen im Array
      */
     public double sum(double[] numberToSumUp) {
         double result = 0;
@@ -76,6 +82,7 @@ public class Calculator {
 
     /**
      * Schreibe den übergebenen Wert in die Konsole
+     *
      * @param result Der Wert, welcher in der Konsole ausgegeben werden soll
      */
     public void printResult(double result) {
